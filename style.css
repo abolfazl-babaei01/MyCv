@@ -1,6 +1,6 @@
 @font-face {
     font-family: "dana-black";
-    src: url("/fonts/dana-bold.ttf") format("truetype");
+    src: url("fonts/dana-bold.ttf") format("truetype");
 }
 * {
     margin: 0;
