@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "dana-black";
+    src: url("/fonts/dana-bold.ttf") format("truetype");
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'dana-black', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    height: 100%;
+}
+
+.profile-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 100%; /* ارتفاع 100% */
+}
+
+.profile-picture img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 2px solid #007bff;
+}
+
+.full-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 10px;
+}
+
+.job-title {
+    font-size: 18px;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+.personal-info span {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #495057;
+}
+
+.contact-me span {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #495057;
+}
+
+.susummary-container {
+    flex: 2;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 1px solid #dee2e6;
+}
+
+.susummary-container h4 {
+    font-size: 20px;
+    color: #343a40;
+    margin-bottom: 15px;
+}
+
+.susummary-container p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #495057;
+    margin-bottom: 20px;
+}
+
+.susummary-container span {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #495057;
+}
+
+.susummary-container h5.project-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.susummary-container p.project-description {
+    font-size: 18px;
+    color: #6c757d;
+    line-height: 1.6;
+}
+
+h5.project-title {
+    direction: ltr;
+}
+
+hr {
+    width: 90%;
+}
+
+.skills {
+    direction: ltr;
+}
+
+/* ریسپانسیو برای حالت موبایل */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .profile-container {
+        margin-bottom: 20px; /* فاصله با بخش پایین */
+    }
+
+    .susummary-container {
+        border: 1px solid #ddd;
+        padding: 15px;
+    }
+}
