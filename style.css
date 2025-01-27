@@ -66,11 +66,17 @@ body {
     color: #495057;
 }
 
-.contact-me span {
+
+.contact-me span{
     display: block;
     margin-bottom: 10px;
     font-size: 14px;
     color: #495057;
+}
+
+.contact-me span a {
+    text-decoration: none;
+    color: #007bff;
 }
 
 .susummary-container {
@@ -105,8 +111,12 @@ body {
 .susummary-container h5.project-title {
     font-size: 18px;
     font-weight: bold;
-    color: #007bff;
     margin-bottom: 10px;
+}
+
+h5.project-title a {
+    text-decoration: none;
+    color: #004fa3;
 }
 
 .susummary-container p.project-description {
