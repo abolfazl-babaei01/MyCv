@@ -12,10 +12,6 @@
 body {
     display: flex;
     min-height: 100vh;
-    background-image: url('images/bg.jpg');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 .container {
@@ -36,7 +32,6 @@ body {
     align-items: center;
     padding: 20px;
     box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.348);
-
     border-radius: 10px;
     height: 100%; 
 }
