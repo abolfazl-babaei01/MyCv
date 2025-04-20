@@ -12,7 +12,10 @@
 body {
     display: flex;
     min-height: 100vh;
-    background-color: #f8f9fa;
+    background-image: url('images/bg.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -23,6 +26,7 @@ body {
     width: 500px;
     padding: 20px;
     height: 100%;
+ 
 }
 
 .profile-container {
@@ -31,8 +35,8 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 10px rgba(255, 255, 255, 0.348);
+
     border-radius: 10px;
     height: 100%; 
 }
@@ -49,13 +53,13 @@ body {
 .full-name {
     font-size: 24px;
     font-weight: bold;
-    color: #343a40;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 
 .job-title {
     font-size: 18px;
-    color: #6c757d;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 
@@ -63,12 +67,16 @@ body {
     display: block;
     margin-bottom: 10px;
     font-size: 14px;
-    color: #495057;
+    color: #ffffff;
 }
 
 .contact-me span a {
     text-decoration: none;
     color: #007bff;
+}
+
+.contact-title {
+    color: #ffffff;
 }
 
 .resume-btn {
